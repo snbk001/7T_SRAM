@@ -1,0 +1,157 @@
+
+                                   PrimeSim 
+
+                 Version S-2021.09 for linux64 - Aug 26, 2021 
+
+                    Copyright (c) 2003 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+---------------------------------------------------------------------------------
+
+PrimeSim SPICE S-2021.09 RHEL64  (Compiled on Aug 26 2021 at 14:29:28 (US-Pacific)) build id: 7232578
+
+Hostname: snps-analog-group-14, Username: snbkademane
+Tool Path: /Applications/Synopsys/Install/primesim/S-2021.09/primesim/platform/linux64/primesim_spice
+
+PrimeSim SPICE S-2021.09 RHEL64  (Compiled on Aug 26 2021 at 14:29:28 (US-Pacific)) build id: 7232578
+
+Hostname: snps-analog-group-14, Username: snbkademane, PID: 9361
+Tool Path: /Applications/Synopsys/Install/primesim/S-2021.09/primesim/platform/linux64/primesim_spice
+
+**** Environment Variables
+(NAME)               (VALUE) 
+LD_LIBRARY_PATH      /Applications/Synopsys/Install/primesim/S-2021.09/lib/linux64:/Applications/Synopsys/Install/primesim/S-2021.09/python/linux64/lib:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/platform/lib/python-2.6:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux
+64/lib/freeType:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/platform/lib:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/lib:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/OA/lib/linux_rhel60_64/opt:/Applications/Synopsys/Install/customcompiler/S-2
+021.09/linux64/PyCellStudio/linux64/3rd/Python/lib:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/PySide/2.6.2/lib:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/lib:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/PyCellStudio/lin
+ux64/lib/python-38:/Applications/Synopsys/Install/customcompiler/S-2021.09/linux64/PyCellStudio/linux64/lib/python-26 
+PRIMESIM             1 
+PRIMESIM_HOME        /Applications/Synopsys/Install/primesim/S-2021.09 
+****
+
+
+FlexNet Licensing checkout error: No such feature exists.
+Feature:       SYNOPSYS_ANOMALY
+License path:  27020@178.128.123.110:
+FlexNet Licensing error:-5,147.  System Error: 2 "No such file or directory"
+license file(s):  27020@178.128.123.110
+[SCL] 02/25/2022 16:52:01 PID:9361 Client:snps-analog-group-14 Server:27020@178.128.123.110 Authorization succeeded primesim 2021.09
+Started at Fri Feb 25 16:52:01 2022
+Command line: 	/Applications/Synopsys/Install/primesim/S-2021.09/bin/primesim /home/snbkademane/simulation/TestSuite13/history_3/simulation/Testbench1/PrimeSimSPICE/nominal/netlist/primesim.spi -o primesim -remove_backslash -spice -sae -inc /PDK/SAED_PDK32nm/hspice
+Working Directory: /home/snbkademane/simulation/TestSuite13/history_3/simulation/Testbench1/PrimeSimSPICE/nominal/results
+
+INFO! read global configuration file (/Applications/Synopsys/Install/primesim/S-2021.09/primesim.cfg)
+
+                </PDK/SAED_PDK32nm/hspice/saed32nm.lib>
+
+Resource Usage for Reading Netlist(self/total): 0.1/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 767.4/767.4 MB
+
+primesim_output_dc=wdf is used for .dc analysis.
+primesim_output_op=wdf is used for .op analysis
+primesim_output_ac=wdf is used for .ac analysis
+
+**** Used Options:
+   primesim_remove_probe_prefix = 0
+   primesim_output = wdf
+   parhier = local
+****
+
+**** Macro Options:
+****
+  Main Setting: runlvl
+Resource Usage for Parsing(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 14.5/781.9 MB
+
+Simulation mode: SPICE
+Checkout succeeded: primesim/3FF452EEFC581681C6D8
+	License file: 27020@178.128.123.110
+	License Server: 27020@178.128.123.110
+Checkout succeeded: primesim/3FF452EEFC581681C6D8
+	License file: 27020@178.128.123.110
+	License Server: 27020@178.128.123.110
+[SCL] Checking status for feature primesim - 02/25/2022 16:52:01
+[SCL] 02/25/2022 16:52:01 PID:9361 Client:snps-analog-group-14 Server:27020@178.128.123.110 Checkout succeeded primesim 2021.09
+License: Checked out primesim(2) successfully from :27020@178.128.123.110 
+
+Resource Usage for License(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 2.3/784.2 MB
+
+Elapsed checking license time: 0.0 seconds
+
+Title: *  Generated for: PrimeSim
+
+
+
+**** expand probe
+   probe pattern 'v(*)' (level=1) matches with 8 nodes on toplevel (primesim.spi:51)
+   probe pattern 'i(*)' (level=1) matches with 4 devices on toplevel (primesim.spi:51)
+****
+
+WARNING! reuse_op: for source:v4: its dc value is different with its time 0 value.
+WARNING! "risetime" set to 2.500000e-10 accoording to user-specified "tstep" value (25%).
+
+  # MOSFET   : 7
+  # V Source : 4 (Max/Min=0.9V/0V)
+
+  TEMP=25
+Resource Usage for Circuit Elaboration(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 41.8/826.0 MB
+
+Generating MOS models ...
+  Table value up to 1V
+  Model 4/5
+  Level=54 Version=4.5
+Resource Usage for MOS Model(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 2.9/828.9 MB
+
+
+Building Connectivity ...
+Resource Usage for Connectivity Building(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), -6.0/822.9 MB
+
+Building DB ...
+Resource Usage for DB Building(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 0.0/822.9 MB
+
+Initializing ...
+Resource Usage for Initialization(self/total): 0.0/0.1 sec (cpu), 0.0/0.0 sec (elapsed), 0.0/822.9 MB
+
+Preparing Outputs ...
+  # probed signals  : 12
+Resource Usage for Output Preparation(self/total): 0.0/0.2 sec (cpu), 0.0/0.0 sec (elapsed), 0.0/822.9 MB
+
+
+Building Matrices ...
+Resource Usage for Matrix Building(self/total): 0.0/0.2 sec (cpu), 0.0/0.0 sec (elapsed), -12.0/810.9 MB
+
+Starting DC Initialization ...
+    ic file 'primesim.ic'
+  DC converged at step 1
+
+End of DC Initialization
+Resource Usage for DC Initialization(self/total): 0.0/0.2 sec (cpu), 0.0/0.0 sec (elapsed), 3.0/813.9 MB
+
+Starting Transient Analysis ...
+  Important settings:
+	runlvl = 4
+	tolscale = 10
+    finished at 10ns
+    output file 'primesim_wdf/tran.tran'
+    # time points: 111
+End of Transient Analysis                               
+Resource Usage for Transient Analysis(self/total): 0.0/0.2 sec (cpu), 0.0/0.0 sec (elapsed), 8.6/822.5 MB
+
+Simulation ended at Fri Feb 25 16:52:01 2022
+
+Total CPU time: 0.2 seconds (0.00 hours)
+Total memory usage: peak= 828.9 MB, avg= 595.8 MB
+
+Total elapsed time: 1.0 seconds (0.00 hours)
+PrimeSim Successfully Completed at Fri Feb 25 16:52:01 2022
+
+[SCL] 02/25/2022 16:52:01 PID:9361 Client:snps-analog-group-14 checkin primesim 
