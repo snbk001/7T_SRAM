@@ -37,7 +37,7 @@ Parameters
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/54323691/156227838-b9ee7d46-f646-4a4a-9548-cf75c4ba7c0d.png">
 
 Net list
-
+```
 *  Generated for: PrimeSim
 *  Design library name: sb_lib_7T
 *  Design cell name: sb_7T_sram_tb_2
@@ -106,4 +106,4 @@ v2 bl gnd! dc=0 pulse ( 0 0.9 0 10p 10p 5n 10n )
 
 
 .end
-
+```
