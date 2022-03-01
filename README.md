@@ -116,5 +116,5 @@ References
 Acknowledgements
 
 Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.,
-Chinmay Panada, IIT Hydrabad,
+Chinmay, IIT Hydrabad,
 Synopsis
