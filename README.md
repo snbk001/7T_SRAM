@@ -107,3 +107,12 @@ v2 bl gnd! dc=0 pulse ( 0 0.9 0 10p 10p 5n 10n )
 
 .end
 ```
+References
+[1] J. K. Mishra, P. Kumar Misra and M. Goswami, "A Low Power 7T SRAM cell using Supply Feedback Technique at 28nm CMOS Technology", 7th International Conference on Signal Processing and Integrated Networks (SPIN), 2020.
+[2] Jitendra Kumar Mishra, Prasanna Kumar Misra, Manish Goswami, "Design of SRAM cell using Voltage Lowering and Stacking Techniques for Low Power Applications", Circuits and Systems (APCCAS) 2020 IEEE Asia Pacific Conference on, pp. 50-53, 2020.
+[3] Sridhara, et al. "Microwatt embedded processor platform for medical system-on-chip applications." In VLSI Circuits (VLSIC), IEEE Symposium on, pp. 15-16. IEEE, 2010.
+
+Acknowledgements
+Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
+Chinmay Panada, IIT Hydrabad
+Synopsis
