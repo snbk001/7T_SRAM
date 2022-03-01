@@ -12,7 +12,7 @@ Reference Waveform
 
 ![image](https://user-images.githubusercontent.com/54323691/156227412-4fd4716b-75f1-4c05-8523-e2086d09b4cf.png)
 
-The transient waveform during a write operation is presented in Fig. 2. Assume the node Q and BL are initially set to logic ‘0’ and ‘1’ respectively. As shown in Fig. 2, the data retained at storing node Q and Qb when WL is initially at 0 V. Then as WL progresses to Vdd, the data in node Q changing and reached the value of BL at 0.9 V cell supply voltage. When again WL falls down to 0 V then the data stored in node Q has been retained as shown in Figure.
+The transient waveform during a write operation is presented in Figure. Assume the node Q and BL are initially set to logic ‘0’ and ‘1’ respectively. As shown in Figure, the data retained at storing node Q and Qb when WL is initially at 0 V. Then as WL progresses to Vdd, the data in node Q changing and reached the value of BL at 0.9 V cell supply voltage. When again WL falls down to 0 V then the data stored in node Q has been retained as shown in Figure.
 
 Simulation
 
