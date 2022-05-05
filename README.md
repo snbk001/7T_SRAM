@@ -1,42 +1,42 @@
-A 7T SRAM Cell using Supply Feedback Technique
+# A 7T SRAM Cell using Supply Feedback Technique
 
-Introduction
+## Introduction
 
 Semiconductor devices scaling has been going on for more than the last five decades. High demand in the electronic market for cheaper, enhanced performance, more functionalities portable devices has resulted in rampant scaling of semiconductor devices. In the novel 7T SRAM cell design the read and write operation have been performed separately using read and write port to enhance the data stability. Furthermore, the supply feedback transistor has been used between data storing node and cell power supply in order to increase the write ability of the SRAM cell.
 
-Reference Circuit
+## Reference Circuit
 
 ![image](https://user-images.githubusercontent.com/54323691/156227343-3ee47609-293c-4dc3-bac9-d73f551e73af.png)
 
-Reference Waveform
+## Reference Waveform
 
 ![image](https://user-images.githubusercontent.com/54323691/156227412-4fd4716b-75f1-4c05-8523-e2086d09b4cf.png)
 
 The transient waveform during a write operation is presented in Figure. Assume the node Q and BL are initially set to logic ‘0’ and ‘1’ respectively. As shown in Figure, the data retained at storing node Q and Qb when WL is initially at 0 V. Then as WL progresses to Vdd, the data in node Q changing and reached the value of BL at 0.9 V cell supply voltage. When again WL falls down to 0 V then the data stored in node Q has been retained as shown in Figure.
 
-Simulation
+## Simulation
 
 Each pMOS is has the W/L of 0.1u/0.03u and each nMOS has the W/L of 0.2u/0.03u.
 
-Schematic Diagram
+## Schematic Diagram
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/54323691/156225978-936ea40f-faa3-435a-9f6e-2f77206b7df1.png">
 
-Cell View
+## Cell View
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/54323691/156226081-31a94665-94d7-47d0-a240-6bab1918384e.png">
 
-Waveform
+## Waveform
 
 <img width="898" alt="image" src="https://user-images.githubusercontent.com/54323691/156226149-b6582be2-1b0f-4023-a95b-6fc84bed1b70.png">
 
-Parameters
+## Parameters
 
 <img width="203" alt="image" src="https://user-images.githubusercontent.com/54323691/156227749-5dde8625-5413-49b4-9d53-c4005ad4e3fe.png">
 
 <img width="202" alt="image" src="https://user-images.githubusercontent.com/54323691/156227838-b9ee7d46-f646-4a4a-9548-cf75c4ba7c0d.png">
 
-Net list
+## Net list
 ```
 *  Generated for: PrimeSim
 *  Design library name: sb_lib_7T
@@ -107,14 +107,15 @@ v2 bl gnd! dc=0 pulse ( 0 0.9 0 10p 10p 5n 10n )
 
 .end
 ```
-References
+## References
 
-[1] J. K. Mishra, P. Kumar Misra and M. Goswami, "A Low Power 7T SRAM cell using Supply Feedback Technique at 28nm CMOS Technology", 7th International Conference on Signal Processing and Integrated Networks (SPIN), 2020.
-[2] Jitendra Kumar Mishra, Prasanna Kumar Misra, Manish Goswami, "Design of SRAM cell using Voltage Lowering and Stacking Techniques for Low Power Applications", Circuits and Systems (APCCAS) 2020 IEEE Asia Pacific Conference on, pp. 50-53, 2020.
-[3] Sridhara, et al. "Microwatt embedded processor platform for medical system-on-chip applications." In VLSI Circuits (VLSIC), IEEE Symposium on, pp. 15-16. IEEE, 2010.
+1. J. K. Mishra, P. Kumar Misra and M. Goswami, "A Low Power 7T SRAM cell using Supply Feedback Technique at 28nm CMOS Technology", 7th International Conference on Signal Processing and Integrated Networks (SPIN), 2020
+2. Jitendra Kumar Mishra, Prasanna Kumar Misra, Manish Goswami, "Design of SRAM cell using Voltage Lowering and Stacking Techniques for Low Power Applications", Circuits and Systems (APCCAS) 2020 IEEE Asia Pacific Conference on, pp. 50-53, 2020
+3. Sridhara, et al. "Microwatt embedded processor platform for medical system-on-chip applications" In VLSI Circuits (VLSIC), IEEE Symposium on, pp. 15-16. IEEE, 2010
 
-Acknowledgements
+## Acknowledgement
 
-Kunal Ghosh, Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.,
-Chinmay, IIT Hydrabad,
-Synopsis
+- Electrical Engineering Department of **IIT** Hyderabad
+- **Synopsis** India
+- Kunal Ghosh, Co-founder of **VLSI System Design (VSD) Corp. Pvt. Ltd.,**
+- Chinmay, **IIT** Hydrabad
